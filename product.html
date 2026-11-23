@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Прямі джинси — STYLESHOP</title>
+  <meta name="description" content="Прямі джинси Індиго з щільного деніму: опис, розміри, доставка й догляд.">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Перейти до основного змісту</a>
+<p class="info-bar">Безкоштовна доставка від 2 000 ₴ · Повернення протягом 14 днів</p>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html">STYLESHOP</a>
+    <input class="nav-toggle-input" type="checkbox" id="nav-toggle" aria-label="Показати меню">
+    <label class="nav-toggle" for="nav-toggle"><span></span><span class="visually-hidden">Меню</span></label>
+    <nav class="main-nav" aria-label="Основна навігація"><ul><li><a href="index.html">Головна</a></li><li><a href="catalog.html">Каталог</a></li><li><a href="product.html" aria-current="page">Товар</a></li><li><a href="cart.html">Кошик</a></li><li><a href="contacts.html">Контакти</a></li></ul></nav>
+    <div class="header-actions">
+      <a href="catalog.html#search" aria-label="Пошук"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></a>
+      <a href="catalog.html" aria-label="Обране"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.2-9.4C1.7 7.700 4 4.500 7.200 4.500c2 0 3.700 1.100 4.800 2.800C13.100 5.600 14.800 4.500 16.800 4.500 20 4.500 22.300 7.700 21.200 11.100 19.500 15.900 12 20.500 12 20.500z"/></svg></a>
+      <a href="contacts.html" aria-label="Особистий кабінет"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-5 15-5 16 0"/></svg></a>
+      <a href="cart.html" aria-label="Кошик, 2 товари"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1 12H6z"/><path d="M9 8V6a3 3 0 016 0v2"/></svg><span class="cart-count">2</span></a>
+    </div>
+  </div>
+</header>
+<main id="main">
+<nav class="container breadcrumbs" aria-label="Хлібні крихти"><ol><li><a href="index.html">Головна</a></li><li><a href="catalog.html">Каталог</a></li><li>Джинси</li><li>Прямі джинси</li></ol></nav>
+
+<div class="container">
+  <div class="product-layout">
+    <section class="gallery" aria-label="Фотографії товару">
+      <figure style="margin:0"><img src="img/jeans.svg" alt="Прямі джинси кольору індиго, вигляд спереду" width="400" height="500"></figure>
+      <div class="gallery-thumbs">
+        <img src="img/jeans-2.svg" alt="Джинси, темніший відтінок" width="400" height="500">
+        <img src="img/jeans-3.svg" alt="Джинси, світліший відтінок" width="400" height="500">
+        <img src="img/jeans-4.svg" alt="Джинси, чорно-синій відтінок" width="400" height="500">
+      </div>
+    </section>
+    <section aria-labelledby="p-title">
+      <p class="eyebrow">Джинси</p>
+      <h1 id="p-title">Прямі джинси</h1>
+      <p class="price" style="font-size:1.6rem">2 190 ₴</p>
+      <p class="muted">Щільний деній із середньою посадкою. Прямий крій, п’ять кишень, шви з контрастним відстрочуванням.</p>
+      <form action="cart.html" method="post">
+        <fieldset><legend>Колір</legend>
+          <div class="pill-list">
+            <span><input class="visually-hidden" type="radio" name="color" id="c1" value="Індиго" checked><label class="pill" for="c1"><span class="swatch" style="background:#3F5468"></span><span class="visually-hidden">Індиго</span></label></span>
+            <span><input class="visually-hidden" type="radio" name="color" id="c2" value="Темний"><label class="pill" for="c2"><span class="swatch" style="background:#1F2B37"></span><span class="visually-hidden">Темний</span></label></span>
+            <span><input class="visually-hidden" type="radio" name="color" id="c3" value="Світлий"><label class="pill" for="c3"><span class="swatch" style="background:#5B7186"></span><span class="visually-hidden">Світлий</span></label></span>
+          </div>
+        </fieldset>
+        <fieldset><legend>Розмір</legend>
+          <div class="pill-list">
+            <span><input class="visually-hidden" type="radio" name="size" id="s-XS" value="XS" required disabled><label class="pill" for="s-XS">XS</label></span><span><input class="visually-hidden" type="radio" name="size" id="s-S" value="S" required><label class="pill" for="s-S">S</label></span><span><input class="visually-hidden" type="radio" name="size" id="s-M" value="M" required><label class="pill" for="s-M">M</label></span><span><input class="visually-hidden" type="radio" name="size" id="s-L" value="L" required><label class="pill" for="s-L">L</label></span><span><input class="visually-hidden" type="radio" name="size" id="s-XL" value="XL" required><label class="pill" for="s-XL">XL</label></span>
+          </div>
+        </fieldset>
+        <button class="btn btn--block" type="submit">Додати до кошика</button>
+      </form>
+      <div style="margin-top:var(--space-3)">
+        <details open><summary>Опис</summary><p>Склад: 98 % бавовна, 2 % еластан. Висота посадки 27 см, довжина штанини 102 см. Модель на фото має зріст 175 см і вдягнена в розмір M.</p></details>
+        <details><summary>Доставка й оплата</summary><p>Нова пошта та Укрпошта — 1–3 дні. Оплата карткою онлайн або при отриманні.</p></details>
+        <details><summary>Догляд</summary><p>Прання при 30 °C, без відбілювачів. Прасування з виворітного боку.</p></details>
+      </div>
+    </section>
+  </div>
+</div>
+<section class="section container" aria-labelledby="rel-title">
+  <h2 id="rel-title">Вам також сподобається</h2>
+  <ul class="product-grid" style="grid-template-columns:repeat(auto-fill,minmax(220px,1fr))"><li><article class="product-card">
+  
+  <button class="fav" type="button" aria-pressed="false" aria-label="Додати до обраного: Широкі штани"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.2-9.4C1.7 7.700 4 4.500 7.200 4.500c2 0 3.700 1.100 4.800 2.800C13.100 5.600 14.800 4.500 16.800 4.500 20 4.500 22.300 7.700 21.200 11.100 19.500 15.900 12 20.500 12 20.500z"/></svg></button>
+  <figure><img src="img/pants.svg" alt="Широкі штани, колір графітовий" width="400" height="500" loading="lazy"></figure>
+  <h3><a href="product.html">Широкі штани</a></h3>
+  <p class="meta">Штани · Графітовий</p>
+  <p class="price">1 650 ₴</p>
+</article></li><li><article class="product-card">
+  
+  <button class="fav" type="button" aria-pressed="false" aria-label="Додати до обраного: Лляна сорочка"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.2-9.4C1.7 7.700 4 4.500 7.200 4.500c2 0 3.700 1.100 4.800 2.800C13.100 5.600 14.800 4.500 16.800 4.500 20 4.500 22.300 7.700 21.200 11.100 19.500 15.900 12 20.500 12 20.500z"/></svg></button>
+  <figure><img src="img/shirt.svg" alt="Лляна сорочка, колір пісочний" width="400" height="500" loading="lazy"></figure>
+  <h3><a href="product.html">Лляна сорочка</a></h3>
+  <p class="meta">Сорочки · Пісочний</p>
+  <p class="price">1 890 ₴</p>
+</article></li><li><article class="product-card">
+  
+  <button class="fav" type="button" aria-pressed="false" aria-label="Додати до обраного: В’язаний светр"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.2-9.4C1.7 7.700 4 4.500 7.200 4.500c2 0 3.700 1.100 4.800 2.800C13.100 5.600 14.800 4.500 16.800 4.500 20 4.500 22.300 7.700 21.200 11.100 19.500 15.900 12 20.500 12 20.500z"/></svg></button>
+  <figure><img src="img/sweater.svg" alt="В’язаний светр, колір бежево-сірий" width="400" height="500" loading="lazy"></figure>
+  <h3><a href="product.html">В’язаний светр</a></h3>
+  <p class="meta">Светри · Бежево-сірий</p>
+  <p class="price">1 990 ₴</p>
+</article></li></ul>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <section aria-labelledby="f1"><h3 id="f1">STYLESHOP</h3><p class="muted">Інтернет-магазин повсякденного одягу з мінімалістичним оформленням.</p></section>
+      <nav aria-label="Навігація підвалу"><h3>Магазин</h3><ul><li><a href="catalog.html">Каталог</a></li><li><a href="cart.html">Кошик</a></li><li><a href="contacts.html">Контакти</a></li></ul></nav>
+      <section aria-labelledby="f3"><h3 id="f3">Допомога</h3><ul><li><a href="contacts.html#delivery">Доставка й оплата</a></li><li><a href="contacts.html#delivery">Повернення</a></li></ul></section>
+      <address><h3>Контакти</h3><ul><li><a href="tel:+380441234567">+38 (044) 123-45-67</a></li><li><a href="mailto:hello@styleshop.example">hello@styleshop.example</a></li><li class="muted">Київ, вул. Хрещатик, 10</li></ul></address>
+    </div>
+    <p class="footer-bottom muted">© 2026 STYLESHOP. Навчальний проєкт, Лабораторна робота № 3.</p>
+  </div>
+</footer>
+</body>
+</html>
